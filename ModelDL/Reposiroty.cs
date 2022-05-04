@@ -11,14 +11,14 @@ namespace ModelDL
             List<Model> listOfModel = GetAllModel();
             listOfModel.Add(m_model);
 
-            string jsonstring = JsonSerializer.Serialize(listOfModel, new JsonSerialierOptions{WriteIndented = true});
+            string jsonstring = JsonSerializer.Serialize(listOfModel, new JsonSerializerOptions{WriteIndented = true});
             File.WriteAllText(_filepath, jsonstring); 
         }
 
         public static List<Model> GetAllModel()
         {
-            string jsonstring = _filepath.ReadAllText(_filepath);
-            List<Model> listOfModel = JsonSerializer.Deserialize<list<Model>>(jsonstring);
+            string jsonstring = File.ReadAllText(_filepath);
+            List<Model> listOfModel = JsonSerializer.Deserialize<List<Model>>(jsonstring);
 
             return listOfModel;
         }
