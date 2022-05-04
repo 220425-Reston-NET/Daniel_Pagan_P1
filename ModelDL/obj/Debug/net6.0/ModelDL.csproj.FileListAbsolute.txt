@@ -1,0 +1,15 @@
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\bin\Debug\net6.0\ModelDL.deps.json
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\bin\Debug\net6.0\ModelDL.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\bin\Debug\net6.0\ModelDL.pdb
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\bin\Debug\net6.0\ModelGundam.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\bin\Debug\net6.0\ModelGundam.pdb
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.csproj.AssemblyReference.cache
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.AssemblyInfo.cs
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.csproj.CopyComplete
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\refint\ModelDL.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ModelDL.pdb
+C:\Users\Daniel\Documents\ModelHaven\ModelDL\obj\Debug\net6.0\ref\ModelDL.dll

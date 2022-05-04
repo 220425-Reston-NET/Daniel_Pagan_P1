@@ -3,3 +3,10 @@ C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.Ge
 C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.AssemblyInfoInputs.cache
 C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.AssemblyInfo.cs
 C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\bin\Debug\net6.0\ModelGundam.deps.json
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\bin\Debug\net6.0\ModelGundam.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\bin\Debug\net6.0\ModelGundam.pdb
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\refint\ModelGundam.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.pdb
+C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ref\ModelGundam.dll
