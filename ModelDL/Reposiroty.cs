@@ -6,7 +6,7 @@ namespace ModelDL
     public class Repository
     {
         private static string _filepath = "../ModelDL/Data/Model.json";
-        public static string AddModel(Model m_model)
+        public static void AddModel(Model m_model)
         {
             List<Model> listOfModel = GetAllModel();
             listOfModel.Add(m_model);
