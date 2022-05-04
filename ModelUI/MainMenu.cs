@@ -1,3 +1,5 @@
+using ModelGundam;
+
 namespace ModelUI
 {
     public class MainMenu
@@ -17,8 +19,26 @@ namespace ModelUI
             if (userInput == "1")
             {
                 Console.Clear();
-                Model modelobj = new Model();
+                Ability modelobj = new Ability();
+                Console.WriteLine("What is the name of the model?");
+                modelobj.Name = Console.ReadLine();
+                Console.WriteLine("What is the type of model?");
+                modelobj.Type = Console.ReadLine();
+                Console.WriteLine("What is the model ID?");
+                modelobj.ModelID = Convert.ToInt32(Console.ReadLine());
+
+                return "AddModel";
             }
         }
+        else if (userInput == "0");
+        {
+            return "Exit";
+        }
+        else
+        {
+            Console.WriteLine("Please input a valid response");
+            return "MainMenu";
+        }
+
     }
 }

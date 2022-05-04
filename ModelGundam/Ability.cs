@@ -1,6 +1,6 @@
 namespace ModelGundam
 {
-    public class Models
+    public class Ability
     {
         public string Name{ get; set; }
 
