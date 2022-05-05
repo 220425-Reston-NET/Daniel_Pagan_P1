@@ -3,7 +3,7 @@ using ModelGundam;
 
 namespace ModelUI
 {
-    public class MainMenu
+    public class MainMenu : IMenu
     {
         public void Display()
         {
