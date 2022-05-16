@@ -5,7 +5,7 @@ namespace ModelUI
 {
     public class MainMenu : IMenu
     {
-         Model modelobj = new Model();
+        Model modelobj = new Model();
         public void Display()
         {
             Console.WriteLine("Welcome to the Main Menu!");

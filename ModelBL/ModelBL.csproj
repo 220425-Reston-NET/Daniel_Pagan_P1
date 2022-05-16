@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModelGundam\ModelGundam.csproj" />
+    <ProjectReference Include="..\ModelDL\ModelDL.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -15,10 +15,10 @@ abil1.Name = "Slash";
 Ability abil2 = new Ability();
 abil2.Name = "Missiles";
 
-modelobj.abilities.Add(abil1);
-modelobj.abilities.Add(abil2);
+modelobj.Abilities.Add(abil1);
+modelobj.Abilities.Add(abil2);
 
-foreach (Ability item in modelobj.abilities)
+foreach (Ability item in modelobj.Abilities)
 {
     Console.WriteLine(item.Name);
 }

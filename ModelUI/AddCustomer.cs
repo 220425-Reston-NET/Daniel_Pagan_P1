@@ -26,7 +26,7 @@ namespace ModelUI
             Console.WriteLine("What is your email address?");
             customerobj.Email = Console.ReadLine();
             Console.WriteLine("[2] - Add a customer");
-            Console.WriteLine("[3] -  Search a customer");
+            Console.WriteLine("[3] - Search a customer");
             Console.WriteLine("[0] - Exit");
            
            try

@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "Name": "Gatling Gun",
+        "Ammo": 900,
+        "Damage": 60
+    },
+    {
+        "Name": "Plasma Blade",
+        "Damage": 420,
+        "CoolDown": "60s"
+    },
+    {
+        "Name": "Missles",
+        "Ammo": 120,
+        "Damage": 220
+    }
+    {
+        "Name": "Thrusters",
+        "EnergyDrain": "30/s",
+        "CoolDown": "120s"
+    }
+]

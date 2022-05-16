@@ -3,9 +3,11 @@
 namespace ModelBL
 {
     public interface IModelBL
-    {
-        void AddCustomer(Customer c_customer);
+    {     
+        void AddModel(Model m_model);
 
-        Customer SearchCustomerByName(string c_customer);
+        Model SearchModelByName(string m_model);
+
+        void AddAbilityToModel(Model m_model);
     }
 }

@@ -23,14 +23,14 @@ namespace ModelGundam
         public string Name { get; set; }
 
         public string Type { get; set;}
-        public List<Ability> abilities { get; set; }
+        public List<Ability> Abilities { get; set; }
 
         public Model()
         {
             ModelID = 1;
             Name = "DeathScythe";
             Type = "Neutral";
-            abilities = new List<Ability>();
+            Abilities = new List<Ability>();
         }
     }
 }
