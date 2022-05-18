@@ -22,13 +22,13 @@ namespace ModelUI
 
             if (userInput == "1")
             {
-                Console.Clear();
-                Console.WriteLine("What is the name of the model?");
-                modelobj.Name = Console.ReadLine();
-                Console.WriteLine("What is the type of model?");
-                modelobj.Type = Console.ReadLine();
-                Console.WriteLine("What is the model ID?");
-                modelobj.ModelID = Convert.ToInt32(Console.ReadLine());
+                // Console.Clear();
+                // Console.WriteLine("What is the name of the model?");
+                // modelobj.Name = Console.ReadLine();
+                // Console.WriteLine("What is the type of model?");
+                // modelobj.Type = Console.ReadLine();
+                // Console.WriteLine("What is the model ID?");
+                // modelobj.ModelID = Convert.ToInt32(Console.ReadLine());
 
                 //Repository.AddModel(modelobj);
                 return "AddModel";

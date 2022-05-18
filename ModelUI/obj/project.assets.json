@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "ModelBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ModelDL": "1.0.0",
+          "ModelGundam": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModelBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelBL.dll": {}
+        }
+      },
       "ModelDL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -28,6 +42,11 @@
     }
   },
   "libraries": {
+    "ModelBL/1.0.0": {
+      "type": "project",
+      "path": "../ModelBL/ModelBL.csproj",
+      "msbuildProject": "../ModelBL/ModelBL.csproj"
+    },
     "ModelDL/1.0.0": {
       "type": "project",
       "path": "../ModelDL/ModelDL.csproj",
@@ -41,7 +60,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ModelDL >= 1.0.0",
+      "ModelBL >= 1.0.0",
       "ModelGundam >= 1.0.0"
     ]
   },
@@ -70,8 +89,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
-              "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj"
+            "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj"
             },
             "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
               "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
@@ -103,7 +122,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

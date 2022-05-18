@@ -4,6 +4,65 @@
     "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelUI\\ModelUI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj",
+        "projectName": "ModelBL",
+        "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj"
+              },
+              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -56,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -108,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -134,8 +193,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj"
+              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj": {
+                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj"
               },
               "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
                 "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
@@ -167,7 +226,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

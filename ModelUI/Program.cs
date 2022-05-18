@@ -4,21 +4,21 @@ using ModelUI;
 
 Console.WriteLine("Hello, World!");
 
-Model modelobj = new Model();
+Model modelObj = new Model();
 
 
-modelobj.ModelID = 100;
-Console.WriteLine(modelobj.ModelID);
+modelObj.ModelID = 100;
+Console.WriteLine(modelObj.ModelID);
 
 Ability abil1 = new Ability();
 abil1.Name = "Slash";
 Ability abil2 = new Ability();
 abil2.Name = "Missiles";
 
-modelobj.Abilities.Add(abil1);
-modelobj.Abilities.Add(abil2);
+modelObj.Abilities.Add(abil1);
+modelObj.Abilities.Add(abil2);
 
-foreach (Ability item in modelobj.Abilities)
+foreach (Ability item in modelObj.Abilities)
 {
     Console.WriteLine(item.Name);
 }

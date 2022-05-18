@@ -4,8 +4,8 @@ using ModelGundam;
 
 public class SearchCustomer : IMenu
 {
-    private IModelBL _modelBL;
-    public SearchCustomer(IModelBL m_modelBL)
+    private ICustomerBL _modelBL;
+    public SearchCustomer(ICustomerBL m_modelBL)
     {
         _modelBL = m_modelBL;
     }

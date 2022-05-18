@@ -18,3 +18,5 @@ C:\Users\Daniel\Documents\ModelHaven\ModelUI\obj\Debug\net6.0\refint\ModelUI.dll
 C:\Users\Daniel\Documents\ModelHaven\ModelUI\obj\Debug\net6.0\ModelUI.pdb
 C:\Users\Daniel\Documents\ModelHaven\ModelUI\obj\Debug\net6.0\ModelUI.genruntimeconfig.cache
 C:\Users\Daniel\Documents\ModelHaven\ModelUI\obj\Debug\net6.0\ref\ModelUI.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelUI\bin\Debug\net6.0\ModelBL.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelUI\bin\Debug\net6.0\ModelBL.pdb
