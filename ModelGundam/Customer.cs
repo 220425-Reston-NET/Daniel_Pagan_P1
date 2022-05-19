@@ -16,8 +16,8 @@ namespace ModelGundam
             set{ _address = value; }
         }
         
-        private int _phonenumber;
-        public int Phone
+        private double _phonenumber;
+        public double Phone
         {
             get { return _phonenumber; }
             set { _phonenumber = value; }
@@ -28,10 +28,6 @@ namespace ModelGundam
         {
             get{ return _email; }
             set{ _email = value; }
-        }
-        
-    
+        }   
     }
-
-
 }

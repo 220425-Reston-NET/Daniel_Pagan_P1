@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ModelBL/1.0.0": {
+        "dependencies": {
+          "ModelDL": "1.0.0",
+          "ModelGundam": "1.0.0"
+        },
+        "runtime": {
+          "ModelBL.dll": {}
+        }
+      },
+      "ModelDL/1.0.0": {
+        "dependencies": {
+          "ModelGundam": "1.0.0"
+        },
+        "runtime": {
+          "ModelDL.dll": {}
+        }
+      },
+      "ModelGundam/1.0.0": {
+        "runtime": {
+          "ModelGundam.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModelGundam/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

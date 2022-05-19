@@ -23,7 +23,7 @@ namespace ModelBL
             Random rand = new Random();
             m_model.Armor = rand.Next(50);
             
-            Model foundedmodel = SearchModelByName(m_model);
+            Model foundedmodel = SearchModelByName(m_model.Name);
             if (foundedmodel == null)
             {
                 _modelRepo.Add(m_model);
@@ -34,7 +34,7 @@ namespace ModelBL
             }
         }
 
-        public Model SearchModelByName(string m_model)
+        public Model SearchModelByName(string m_modelName)
         {
             List<Model> currentListOfModel = _modelRepo.GetAll();
             foreach (Model modelObj in currentListOfModel)

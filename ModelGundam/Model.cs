@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace ModelGundam
 {
     public class Model
@@ -15,13 +17,13 @@ namespace ModelGundam
                  }
                  else
                  {
-                     Console.WriteLine("Model ID can only hold positive numbers! { value > 0 }");
+                     throw new ValidationException("ModelID needs to be above 0");
                  }
             }
         }
 
         public string Name { get; set; }
-
+        public int Armor { get; set; }
         public string Type { get; set;}
         public List<Ability> Abilities { get; set; }
 

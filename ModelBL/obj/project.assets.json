@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ModelDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ModelGundam": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModelDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelDL.dll": {}
+        }
+      },
+      "ModelGundam/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ModelGundam.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelGundam.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ModelDL/1.0.0": {
+      "type": "project",
+      "path": "../ModelDL/ModelDL.csproj",
+      "msbuildProject": "../ModelDL/ModelDL.csproj"
+    },
+    "ModelGundam/1.0.0": {
+      "type": "project",
+      "path": "../ModelGundam/ModelGundam.csproj",
+      "msbuildProject": "../ModelGundam/ModelGundam.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ModelDL >= 1.0.0",
+      "ModelGundam >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Daniel\\.nuget\\packages\\": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj"
+            },
+            "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
+              "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

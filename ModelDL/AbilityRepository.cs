@@ -22,7 +22,7 @@ namespace PokeDL
 
         public void Update(Ability m_resource)
         {
-            throw new NotImplementedException();
+           throw new NotImplementedException();
         }
     }
 }

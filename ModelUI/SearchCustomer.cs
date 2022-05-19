@@ -4,6 +4,7 @@ using ModelGundam;
 
 public class SearchCustomer : IMenu
 {
+    public static Customer foundedcustomer;
     private ICustomerBL _modelBL;
     public SearchCustomer(ICustomerBL m_modelBL)
     {
@@ -14,9 +15,8 @@ public class SearchCustomer : IMenu
     {
         Console.WriteLine("How would you like to search for a customer?");
         Console.WriteLine("[1] - Search by Name");
-        Console.WriteLine("[2] - Search by address");
-        Console.WriteLine("[3] - Search by Phone number");
-        Console.WriteLine("[4] - Search by email");
+        Console.WriteLine("[2] - Search by Phone number");
+        Console.WriteLine("[3] - Search by Email");
         Console.WriteLine("[0] - Exit");
     }
 
@@ -25,10 +25,6 @@ public class SearchCustomer : IMenu
         string userInput = Console.ReadLine();
 
         if (userInput == "1")
-        {
-            return "MainMenu";
-        }
-        else if (userInput == "2")
         {
             Console.WriteLine("Enter customer name: ");
             string customerName = Console.ReadLine();
@@ -52,14 +48,35 @@ public class SearchCustomer : IMenu
             Console.ReadLine();
 
             return "SearchCustomer";
+            
+        }
+        else if (userInput == "2")
+        {
+            Console.WriteLine("Enter customer phone number");
+            string customerPhone = Console.ReadLine();
+
+            Customer foundedCustomer = _modelBL.SearchCustomerByPhone(customerPhone);
+            if (foundedCustomer == null)
+            {
+                Console.WriteLine("Customer was not found!");
+            }
+            else
+            {
+                Console.WriteLine("===Customer Info===");
+                Console.WriteLine("Name: " + foundedCustomer.Name);
+                Console.WriteLine("Address: " + foundedCustomer.Address);
+                Console.WriteLine("Phone: " + foundedCustomer.Phone);
+                Console.WriteLine("Email: " + foundedCustomer.Email);
+                Console.WriteLine("=============");
+            }
+
+            Console.ReadLine();
+
+            return "SearchCustomer";
         }
         else if (userInput == "3")
         {
-            return "MainMenu";
-        }
-        else if (userInput == "4")
-        {
-            return "MainMenu";
+            return "SearchCustomer";
         }
         else if (userInput == "0")
         {

@@ -1,8 +1,9 @@
 [
   {
-    "ModelID": 7,
     "Name": "Breaker",
-    "Type": "Fighter",
-    "abilities": []
+    "Address": null,
+    "Phone": 0,
+    "Email": null
   }
+  
 ]

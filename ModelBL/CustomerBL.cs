@@ -1,20 +1,28 @@
+using ModelDL;
 using ModelGundam;
 
 namespace ModelBL
 {
     public class CustomerBL : ICustomerBL
     {
-        private CustomerRepository<Model> _customRepo;
-        public CustomerBL(CustomerRepository<Model> c_customRepo)
+        private IRepository<Customer> _customRepo;
+        public CustomerBL(IRepository<Customer> c_customRepo)
         {
             _customRepo = c_customRepo;
         }
          public void AddCustomer(Customer c_customer)
         {
-            throw new NotImplementedException();
+            Customer foundedcustomer = SearchCustomerByName(c_customer.Name);
+            if (foundedcustomer == null)
+            {
+                _customRepo.Add(c_customer);
+            }
+            else
+            {
+                throw new Exception("Customer name already exist");
+            }
         }
-
-        public Customer SearchCustomerByName(string c_customer)
+        public Customer SearchCustomerByName(string c_customerName)
         {
            List<Customer> currentListOfCustomers = _customRepo.GetAll();
 
@@ -27,6 +35,21 @@ namespace ModelBL
            }
 
            return null;
+        }
+
+        public Customer SearchCustomerByPhone(string c_customer)
+        {
+            throw new NotImplementedException();
+        }
+               
+        public Customer SearchCustomerByEmail(string c_customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Customer SearchCustomerByEmail(object customerEmail)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -20,7 +20,7 @@ public class AddCustomer : IMenu
         Console.WriteLine("What is your address?");
         customerobj.Address = Console.ReadLine();
         Console.WriteLine("What is you phone number?");
-        customerobj.Phone = Convert.ToInt32(Console.ReadLine());
+        customerobj.Phone = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("What is your email address?");
         customerobj.Email = Console.ReadLine();
         Console.WriteLine("[2] - Add a customer");
