@@ -20,3 +20,5 @@ C:\Users\Daniel\Documents\ModelHaven\ModelUI\obj\Debug\net6.0\ModelUI.genruntime
 C:\Users\Daniel\Documents\ModelHaven\ModelUI\obj\Debug\net6.0\ref\ModelUI.dll
 C:\Users\Daniel\Documents\ModelHaven\ModelUI\bin\Debug\net6.0\ModelBL.dll
 C:\Users\Daniel\Documents\ModelHaven\ModelUI\bin\Debug\net6.0\ModelBL.pdb
+C:\Users\Daniel\Documents\ModelHaven\ModelUI\bin\Debug\net6.0\Serilog.dll
+C:\Users\Daniel\Documents\ModelHaven\ModelUI\bin\Debug\net6.0\Serilog.Sinks.File.dll

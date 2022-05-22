@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Y2ymoz16BB4VmDVFd3cY+jBbPad0hG1TWVJdhXRWqLAF/kjR01Kr7Zxde07AjO9FKBaOriZDLvCNvfDviudIKA==",
+  "dgSpecHash": "lHL0bWjsnXQ35ALeHPC6nynBGVyHpobC/9z1Vb07vKMDhRe2lXwtleATeKaIy8gcAcdjrj2xeiR24JfWJmBZ+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelUI\\ModelUI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniel\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

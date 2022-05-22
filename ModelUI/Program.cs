@@ -3,6 +3,12 @@ using ModelBL;
 using ModelDL;
 using ModelGundam;
 using ModelUI;
+using Serilog;
+
+//Initialize my logger
+Log.Logger = new LoggerConfiguration() //LoggerConfiguration used to configure your logger and create it
+    .WriteTo.File("./Logs/User.txt") //Configureing the logger to save information to a file called User.txt iside of the Logs folder
+    .CreateLogger(); //A method to create the logger
 
 // Console.WriteLine("Hello, World!");
 
@@ -35,14 +41,17 @@ while (repeat)
 
     if (ans == "MainMenu")
     {
+        Log.Information("User going to MainMenu");
         menu = new MainMenu();
     }
     else if (ans == "AddModel")
     {
+        Log.Information("User going to AddModel Menu");
         // menu = new AddModel(new ModelBusinessLayer());
     }
     else if (ans == "AddAbility")
     {
+        Log.Information("User going to AddAbility Menu");
         // menu = new AddAbility(new ModelBusinessLayer());
     }
     else if (ans == "AddCustomer")
