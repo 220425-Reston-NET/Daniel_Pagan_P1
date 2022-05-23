@@ -12,5 +12,26 @@
     "Armor": 18,
     "Type": "Speed",
     "Abilities": []
+  },
+  {
+    "ModelID": 3,
+    "Name": "Barbatos",
+    "Armor": 6,
+    "Type": "Defense",
+    "Abilities": []
+  },
+  {
+    "ModelID": 4,
+    "Name": "Schwarzritter",
+    "Armor": 11,
+    "Type": "Artillery",
+    "Abilities": []
+  },
+  {
+    "ModelID": 5,
+    "Name": "Phoenix",
+    "Armor": 44,
+    "Type": "Combat",
+    "Abilities": []
   }
 ]
