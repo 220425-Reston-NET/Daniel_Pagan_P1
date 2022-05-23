@@ -4,5 +4,11 @@
     "Address": "80 Park Street",
     "Phone": 3,
     "Email": "dave.robinson@aol.com"
+  },
+  {
+    "Name": "Daniel Pagan",
+    "Address": "70 watchung ave",
+    "Phone": 8627546727,
+    "Email": "daniel857@revature.net"
   }
 ]

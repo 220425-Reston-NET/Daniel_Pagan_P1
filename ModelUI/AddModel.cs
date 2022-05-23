@@ -1,5 +1,6 @@
 using ModelBL;
 using ModelGundam;
+using Serilog;
 
 public class AddModel : IMenu
 {
@@ -26,9 +27,13 @@ public class AddModel : IMenu
         catch (System.Exception)
         {
             
+            Log.Warning("User tried to add a negative number!");
             Console.WriteLine("ModelID cannot be negative!");
             modelObj.ModelID = 1;
         }
+        Console.WriteLine("[1] - Add a model");
+        Console.WriteLine("[2] - Search a model");
+        Console.WriteLine("[0] - Exit");
     }
 
     public string Yourchoice()
@@ -43,12 +48,17 @@ public class AddModel : IMenu
             }
             catch (System.Exception)
             {
-                
+                Log.Warning("User tried to add a negative number!");
+                Log.Information(modelObj.ToString());
                 Console.WriteLine("Model name already exists!");
                 Console.ReadLine();
             }
-
+           
             return "MainMenu";
+        }
+        else if (userInput == "2")
+        {
+            return "SearchModel";
         }
         else if (userInput == "0")
         {

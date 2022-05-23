@@ -76,6 +76,26 @@ public class SearchCustomer : IMenu
         }
         else if (userInput == "3")
         {
+            Console.WriteLine("Enter Customer email");
+            string customerEmail = Console.ReadLine();
+
+            Customer foundedCustomer = _modelBL.SearchCustomerByEmail(customerEmail);
+            if (foundedCustomer == null)
+            {
+                Console.WriteLine("Customer was not found!");
+            }
+            else
+            {
+                Console.WriteLine("===Customer Info===");
+                Console.WriteLine("Name: " + foundedCustomer.Name);
+                Console.WriteLine("Address: " + foundedCustomer.Address);
+                Console.WriteLine("Phone: " + foundedCustomer.Phone);
+                Console.WriteLine("Email: " + foundedCustomer.Email);
+                Console.WriteLine("=============");
+            }
+
+            Console.ReadLine();
+
             return "SearchCustomer";
         }
         else if (userInput == "0")

@@ -1,9 +1,16 @@
 [
   {
+    "ModelID": 1,
     "Name": "Breaker",
-    "Address": null,
-    "Phone": 0,
-    "Email": null
+    "Armor": 0,
+    "Type": "Neutral",
+    "Abilities": []
+  },
+  {
+    "ModelID": 2,
+    "Name": "Astraea",
+    "Armor": 18,
+    "Type": "Speed",
+    "Abilities": []
   }
-  
 ]

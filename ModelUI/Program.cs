@@ -1,9 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
+global using Serilog;
 using ModelBL;
 using ModelDL;
 using ModelGundam;
 using ModelUI;
-using Serilog;
+using PokeDL;
+using PokeUI;
+
 
 //Initialize my logger
 Log.Logger = new LoggerConfiguration() //LoggerConfiguration used to configure your logger and create it
@@ -47,20 +50,21 @@ while (repeat)
     else if (ans == "AddModel")
     {
         Log.Information("User going to AddModel Menu");
-        // menu = new AddModel(new ModelBusinessLayer());
+        menu = new AddModel(new ModelBusinessLayer(new ModelRepository()));
     }
-    else if (ans == "AddAbility")
+    else if (ans == "SelectAbility")
     {
-        Log.Information("User going to AddAbility Menu");
-        // menu = new AddAbility(new ModelBusinessLayer());
+        Log.Information("User going to SelectAbility Menu");
+        menu = new SelectAbility(new AbilityBL(new AbilityRepository()), new ModelBusinessLayer(new ModelRepository()));
     }
     else if (ans == "AddCustomer")
     {
+        Log.Information("User is adding a customer");
         menu = new AddCustomer(new CustomerBL(new CustomerRepository()));
     }
     else if (ans == "SearchCustomer")
     {
-
+        Log.Information("User is searching a cutomer");
         menu = new SearchCustomer(new CustomerBL(new CustomerRepository()));
     }
     else if (ans == "Exit")

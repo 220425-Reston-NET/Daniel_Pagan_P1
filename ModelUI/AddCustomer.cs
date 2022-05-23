@@ -1,6 +1,7 @@
 
 using ModelBL;
 using ModelGundam;
+using Serilog;
 
 public class AddCustomer : IMenu
 {
@@ -23,20 +24,18 @@ public class AddCustomer : IMenu
         customerobj.Phone = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("What is your email address?");
         customerobj.Email = Console.ReadLine();
-        Console.WriteLine("[2] - Add a customer");
-        Console.WriteLine("[3] - Search a customer");
-        Console.WriteLine("[0] - Exit");
+        
+        // try
+        // {
+        //     customerobj.Phone = Convert.ToDouble(Console.ReadLine());
+        // }
+        // catch (System.Exception)
+        // {
+        //     Console.WriteLine("Phone number must contain 10 digits!");
 
-        try
-        {
-            customerobj.Phone = Convert.ToInt32(Console.ReadLine());
-        }
-        catch (System.Exception)
-        {
-            Console.WriteLine("Phone number must contain 10 digits!");
-
-        }
+        // }
         Console.WriteLine("[1] - Add a customer");
+        Console.WriteLine("[2] - Search a customer");
         Console.WriteLine("[0] - Exit");
     }
 
@@ -54,7 +53,8 @@ public class AddCustomer : IMenu
             }
             catch (System.Exception)
             {
-
+                Log.Warning("Customer name already exist!");
+                Log.Information(customerobj.ToString());
                 Console.WriteLine("Customer name already exist!");
                 Console.ReadLine();
             }

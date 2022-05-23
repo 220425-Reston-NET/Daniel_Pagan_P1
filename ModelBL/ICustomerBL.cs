@@ -9,6 +9,6 @@ namespace ModelBL
         Customer SearchCustomerByName(string c_customer);
         Customer SearchCustomerByPhone(string c_customer);
         Customer SearchCustomerByEmail(string c_customer);
-        Customer SearchCustomerByEmail(object customerEmail);
+        Customer SearchCustomerByEmail(object customer);
     }
 }
