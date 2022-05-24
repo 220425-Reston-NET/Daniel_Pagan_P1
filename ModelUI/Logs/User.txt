@@ -21,3 +21,8 @@
 2022-05-23 17:27:57.302 -04:00 [INF] User going to MainMenu
 2022-05-23 17:27:59.411 -04:00 [INF] User going to AddModel Menu
 2022-05-23 17:28:32.461 -04:00 [INF] User going to MainMenu
+2022-05-24 14:12:53.215 -04:00 [INF] User is adding a customer
+2022-05-24 14:14:05.271 -04:00 [INF] User going to MainMenu
+2022-05-24 14:14:12.402 -04:00 [INF] User is searching a cutomer
+2022-05-24 14:14:45.593 -04:00 [INF] User is searching a cutomer
+2022-05-24 14:14:48.530 -04:00 [INF] User going to MainMenu

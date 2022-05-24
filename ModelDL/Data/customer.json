@@ -2,7 +2,7 @@
   {
     "Name": "Dave Robinson",
     "Address": "80 Park Street",
-    "Phone": 3,
+    "Phone": 3437825264,
     "Email": "dave.robinson@aol.com"
   },
   {
@@ -10,5 +10,11 @@
     "Address": "70 watchung ave",
     "Phone": 8627546727,
     "Email": "daniel857@revature.net"
+  },
+  {
+    "Name": "Dennis Rivera",
+    "Address": "32 South Pine Lane",
+    "Phone": 8625547788,
+    "Email": "d.rivera@police.com"
   }
 ]
