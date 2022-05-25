@@ -16,7 +16,7 @@
     },
     {
         "Name": "Thrusters",
-        "EnergyDrain": "30/s",
+        "EnergyDrain": "30s",
         "CoolDown": "120s"
     }
 ]
