@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Documents\\ModelHaven\\Modeltest\\ModelTest.csproj": {}
+    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelTest\\ModelTest.csproj": {}
   },
   "projects": {
     "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Documents\\ModelHaven\\Modeltest\\ModelTest.csproj": {
+    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelTest\\ModelTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\Modeltest\\ModelTest.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelTest\\ModelTest.csproj",
         "projectName": "ModelTest",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\Modeltest\\ModelTest.csproj",
+        "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelTest\\ModelTest.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\Modeltest\\obj\\",
+        "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"

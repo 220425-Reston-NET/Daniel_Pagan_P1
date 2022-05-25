@@ -33,5 +33,12 @@
     "Armor": 44,
     "Type": "Combat",
     "Abilities": []
+  },
+  {
+    "ModelID": 6,
+    "Name": "Stryx",
+    "Armor": 20,
+    "Type": "Infiltration",
+    "Abilities": []
   }
 ]

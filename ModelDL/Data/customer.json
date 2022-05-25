@@ -16,5 +16,17 @@
     "Address": "32 South Pine Lane",
     "Phone": 8625547788,
     "Email": "d.rivera@police.com"
+  },
+  {
+    "Name": "Stephen P",
+    "Address": "32 fifth street",
+    "Phone": 2359871245,
+    "Email": "stephen.r@revature.com"
+  },
+  {
+    "Name": "Stephen Pagdilao",
+    "Address": "32 fifth str",
+    "Phone": 2314561982,
+    "Email": "stephan.p@gmail.com"
   }
 ]
