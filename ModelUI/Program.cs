@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 global using Serilog;
+using Microsoft.Extensions.Configuration;
 using ModelBL;
 using ModelDL;
 using ModelGundam;
@@ -12,6 +13,12 @@ using PokeUI;
 Log.Logger = new LoggerConfiguration() //LoggerConfiguration used to configure your logger and create it
     .WriteTo.File("./Logs/User.txt") //Configureing the logger to save information to a file called User.txt iside of the Logs folder
     .CreateLogger(); //A method to create the logger
+
+//Initializing my configuration object
+var configuration = new ConfigurationBuilder() //Builder class used to create my configuration object
+    .SetBasePath(Directory.GetCurrentDirectory()) //Sets the base path to the current directory
+    .AddJsonFile("appsettings.json") //Grabs the specific json file on where the information is from
+    .Build(); //Creates the object
 
 // Console.WriteLine("Hello, World!");
 
@@ -60,12 +67,12 @@ while (repeat)
     else if (ans == "AddCustomer")
     {
         Log.Information("User is adding a customer");
-        menu = new AddCustomer(new CustomerBL(new CustomerRepository()));
+        menu = new AddCustomer(new CustomerBL(new SQLCustomerRepository(configuration.GetConnectionString("Daniel Pagan"))));
     }
     else if (ans == "SearchCustomer")
     {
         Log.Information("User is searching a cutomer");
-        menu = new SearchCustomer(new CustomerBL(new CustomerRepository()));
+    menu = new SearchCustomer(new CustomerBL(new SQLCustomerRepository(configuration.GetConnectionString("Daniel Pagan"))));
     }
     else if (ans == "Exit")
     {

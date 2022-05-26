@@ -459,6 +459,7 @@
       },
       "ModelDL/1.0.0": {
         "dependencies": {
+          "Microsoft.Data.SqlClient": "4.1.0",
           "ModelGundam": "1.0.0"
         },
         "runtime": {

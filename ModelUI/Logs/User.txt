@@ -39,3 +39,26 @@
 2022-05-25 10:27:00.836 -04:00 [INF] User is searching a cutomer
 2022-05-25 10:28:27.991 -04:00 [INF] User is searching a cutomer
 2022-05-25 10:28:30.416 -04:00 [INF] User going to MainMenu
+2022-05-26 16:07:00.292 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:12:01.688 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:14:05.865 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:14:34.418 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:16:05.366 -04:00 [INF] User going to MainMenu
+2022-05-26 16:16:11.435 -04:00 [INF] User is adding a customer
+2022-05-26 16:17:27.530 -04:00 [WRN] Customer name already exist!
+2022-05-26 16:17:27.530 -04:00 [INF] ModelGundam.Customer
+2022-05-26 16:17:41.183 -04:00 [INF] User going to MainMenu
+2022-05-26 16:17:44.427 -04:00 [INF] User is adding a customer
+2022-05-26 16:18:24.132 -04:00 [WRN] Customer name already exist!
+2022-05-26 16:18:24.132 -04:00 [INF] ModelGundam.Customer
+2022-05-26 16:39:58.719 -04:00 [INF] User going to MainMenu
+2022-05-26 16:42:37.089 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:42:49.822 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:43:06.146 -04:00 [INF] User is searching a cutomer
+2022-05-26 16:43:08.198 -04:00 [INF] User going to MainMenu
+2022-05-26 17:10:31.347 -04:00 [INF] User is adding a customer
+2022-05-26 17:11:23.472 -04:00 [INF] User going to MainMenu
+2022-05-26 17:21:51.304 -04:00 [INF] User is adding a customer
+2022-05-26 17:24:32.730 -04:00 [INF] User going to MainMenu
+2022-05-26 17:26:46.601 -04:00 [INF] User is adding a customer
+2022-05-26 17:27:12.567 -04:00 [INF] User going to MainMenu
