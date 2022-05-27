@@ -1,3 +1,7 @@
+using ModelBL;
+using ModelDL;
+using ModelGundam;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IRepository<Customer>, SQLCustomerRepository>(repo => new SQLCustomerRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<IModelBL, ModelBusinessLayer>();
 
 var app = builder.Build();
 
