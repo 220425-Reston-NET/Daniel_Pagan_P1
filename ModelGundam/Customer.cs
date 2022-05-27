@@ -2,6 +2,12 @@ namespace ModelGundam
 {
     public class Customer
     {
+        private int _customerID;
+        public int customerID
+        {
+            get{ return _customerID; }
+            set{ _customerID = value; }
+        }
         private string _name;
         public string Name
         {

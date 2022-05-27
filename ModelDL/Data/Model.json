@@ -40,5 +40,12 @@
     "Armor": 20,
     "Type": "Infiltration",
     "Abilities": []
+  },
+  {
+    "ModelID": 12,
+    "Name": "Wing Zero",
+    "Armor": 27,
+    "Type": "Angel",
+    "Abilities": []
   }
 ]

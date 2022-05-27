@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBL", "ModelBL\ModelBL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTest", "ModelTest\ModelTest.csproj", "{C41CD63D-3B76-4865-A156-4DD4F6F6A278}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelApi", "ModelApi\ModelApi.csproj", "{DD739C59-7343-4F07-A50C-D519EDF0F578}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{C41CD63D-3B76-4865-A156-4DD4F6F6A278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41CD63D-3B76-4865-A156-4DD4F6F6A278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41CD63D-3B76-4865-A156-4DD4F6F6A278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD739C59-7343-4F07-A50C-D519EDF0F578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD739C59-7343-4F07-A50C-D519EDF0F578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD739C59-7343-4F07-A50C-D519EDF0F578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD739C59-7343-4F07-A50C-D519EDF0F578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

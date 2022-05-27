@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lh5CIPYSKFBArbC5/xSP+WRv2D01Aje8nBnFG/LmHZmr97Q0hK93ot4XoxxA5e7rgxWNpbTW3jh7jb6rxbkyhQ==",
+  "dgSpecHash": "vbQWUaEbMsrpGstmhHpUqIIHnlHFd21dn2paE8qUgXllhrxgMZkBMQhJ8or+e+F6mFZItx4p3QPXgPyvkfu54Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelUI\\ModelUI.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.data.sqlclient\\4.1.0\\microsoft.data.sqlclient.4.1.0.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.data.sqlclient\\4.0.1\\microsoft.data.sqlclient.4.0.1.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\4.0.0\\microsoft.data.sqlclient.sni.runtime.4.0.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

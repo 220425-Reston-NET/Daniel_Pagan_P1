@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/ModelGundam/bin/Debug/net6.0/ModelGundam.dll",
+            "program": "${workspaceFolder}/ModelUI/bin/Debug/net6.0/ModelUI.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/ModelGundam",
+            "cwd": "${workspaceFolder}/ModelUI",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {

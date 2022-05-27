@@ -30,9 +30,5 @@ namespace ModelBL
             return null;
         }
 
-        Ability IAbilityBL.SearchAbilityByName(string m_abilityName)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -4,22 +4,22 @@ namespace ModelGundam
     {
         public string Name{ get; set; }
 
-        private int _PP;
-        public int PP
+        private int _abilityID;
+        public int abilityID
         {
-            get { return _PP; }
+            get { return _abilityID; }
             set
             {
                 if (value > 0)
                 {
-                    _PP = value;
+                    _abilityID = value;
                 }
                 else
                 {
-                    Console.WriteLine("PowerPoint cannot be negative");
+                    Console.WriteLine("Ability cannot be negative");
                 }
             }
         }
-        public int Power { get; set; }
+        
     }
 }
