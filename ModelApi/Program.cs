@@ -12,7 +12,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IRepository<Customer>, SQLCustomerRepository>(repo => new SQLCustomerRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
-builder.Services.AddScoped<IModelBL, ModelBusinessLayer>();
+builder.Services.AddScoped<ICustomerBL, CustomerBL>();
+builder.Services.AddScoped<IRepository<CustomersModelsJoin>, SQLCustomersModelsJoinRepo>(repo => new SQLCustomersModelsJoinRepo(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<ICustomersModelsJoinBL, CustomersModelsJoinBL>();
 
 var app = builder.Build();
 
