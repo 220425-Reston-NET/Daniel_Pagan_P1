@@ -33,8 +33,8 @@ namespace ModelDL
 
                SqlCommand command = new SqlCommand(SQLquery, con);
 
-               command.Parameters.AddWithValue("@customerID");
-               command.Parameters.AddWithValue("@modelID");
+            //    command.Parameters.AddWithValue("@customerID");
+            //    command.Parameters.AddWithValue("@modelID");
 
                command.ExecuteNonQuery();
            }

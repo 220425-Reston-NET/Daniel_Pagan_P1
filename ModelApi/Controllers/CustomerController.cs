@@ -1,4 +1,3 @@
-
 using Microsoft.AspNetCore.Mvc;
 using ModelBL;
 
@@ -18,6 +17,19 @@ namespace CustomerApi.Controllers
         }
         
     // [HttpGet("GetAllCustomer")]
-    }
+    // public async Task<IActionResult> GetAllCustomer()
+    // {
+    //     try
+    //     {
+    //         // List<Customer> listOfCurrentCustomer = _CustomerBL.GetAllCustomerAsync();
 
+    //         // return ok(listOFCurrentCustomer);
+    //     }
+    //     catch (System.Exception)
+    //     {
+            
+    //         throw;
+    //     }
+    // }
+    }
 }
