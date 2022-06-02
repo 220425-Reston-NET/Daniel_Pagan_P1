@@ -15,14 +15,17 @@ namespace ModelBL
             ModelAbilityJoin joinTable = new ModelAbilityJoin();
             joinTable.abilityID = m_abilityID;
             joinTable.Ammo = m_Ammo;
-            joinTable.Armor = m_Armor;
-
+            
             _modelAbiRepo.Update(joinTable);
         }
 
         public void ReplenishAbilityArmor(int m_Armor, int m_abilityID, int m_modelID)
         {
-            throw new NotImplementedException();
+            ModelAbilityJoin joinTable = new ModelAbilityJoin();
+            joinTable.abilityID = m_abilityID;
+            joinTable.Armor = m_Armor;
+
+            _modelAbiRepo.Update(joinTable);
         }
     }
 
