@@ -51,5 +51,11 @@ namespace ModelBL
         {
             throw new NotImplementedException();
         }
+
+        public List<Customer> GetAllCustomer()
+        {
+            List<Customer> currentListOfCustomers = _customRepo.GetAll();
+            return currentListOfCustomers;
+        }
     }
 }

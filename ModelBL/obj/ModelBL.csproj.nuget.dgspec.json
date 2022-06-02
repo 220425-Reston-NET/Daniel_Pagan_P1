@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj": {}
+    "E:\\Revature\\Project 1\\ModelHaven\\ModelBL\\ModelBL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj": {
+    "E:\\Revature\\Project 1\\ModelHaven\\ModelBL\\ModelBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj",
+        "projectUniqueName": "E:\\Revature\\Project 1\\ModelHaven\\ModelBL\\ModelBL.csproj",
         "projectName": "ModelBL",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\ModelBL.csproj",
+        "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelBL\\ModelBL.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelBL\\obj\\",
+        "outputPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelBL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj"
+              "E:\\Revature\\Project 1\\ModelHaven\\ModelDL\\ModelDL.csproj": {
+                "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelDL\\ModelDL.csproj"
               },
-              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
+              "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
+                "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj": {
+    "E:\\Revature\\Project 1\\ModelHaven\\ModelDL\\ModelDL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj",
+        "projectUniqueName": "E:\\Revature\\Project 1\\ModelHaven\\ModelDL\\ModelDL.csproj",
         "projectName": "ModelDL",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\ModelDL.csproj",
+        "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelDL\\ModelDL.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelDL\\obj\\",
+        "outputPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelDL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
-                "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
+              "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
+                "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
+    "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
+        "projectUniqueName": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
         "projectName": "ModelGundam",
-        "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
+        "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
         "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\obj\\",
+        "outputPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"

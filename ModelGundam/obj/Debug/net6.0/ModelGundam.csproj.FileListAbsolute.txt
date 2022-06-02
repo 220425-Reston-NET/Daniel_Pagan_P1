@@ -10,3 +10,15 @@ C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.dl
 C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\refint\ModelGundam.dll
 C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.pdb
 C:\Users\Daniel\Documents\ModelHaven\ModelGundam\obj\Debug\net6.0\ref\ModelGundam.dll
+E:\Revature\Project 1\ModelHaven\ModelGundam\bin\Debug\net6.0\ModelGundam.deps.json
+E:\Revature\Project 1\ModelHaven\ModelGundam\bin\Debug\net6.0\ModelGundam.dll
+E:\Revature\Project 1\ModelHaven\ModelGundam\bin\Debug\net6.0\ModelGundam.pdb
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.csproj.AssemblyReference.cache
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.GeneratedMSBuildEditorConfig.editorconfig
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.AssemblyInfoInputs.cache
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.AssemblyInfo.cs
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.csproj.CoreCompileInputs.cache
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.dll
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\refint\ModelGundam.dll
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ModelGundam.pdb
+E:\Revature\Project 1\ModelHaven\ModelGundam\obj\Debug\net6.0\ref\ModelGundam.dll

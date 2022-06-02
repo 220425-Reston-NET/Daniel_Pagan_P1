@@ -15,3 +15,20 @@ C:\Users\Daniel\Documents\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.dll
 C:\Users\Daniel\Documents\ModelHaven\ModelBL\obj\Debug\net6.0\refint\ModelBL.dll
 C:\Users\Daniel\Documents\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.pdb
 C:\Users\Daniel\Documents\ModelHaven\ModelBL\obj\Debug\net6.0\ref\ModelBL.dll
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelBL.deps.json
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelBL.dll
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelBL.pdb
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelDL.dll
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelGundam.dll
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelGundam.pdb
+E:\Revature\Project 1\ModelHaven\ModelBL\bin\Debug\net6.0\ModelDL.pdb
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.csproj.AssemblyReference.cache
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.AssemblyInfoInputs.cache
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.AssemblyInfo.cs
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.csproj.CoreCompileInputs.cache
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.csproj.CopyComplete
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.dll
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\refint\ModelBL.dll
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ModelBL.pdb
+E:\Revature\Project 1\ModelHaven\ModelBL\obj\Debug\net6.0\ref\ModelBL.dll

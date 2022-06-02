@@ -10,5 +10,7 @@ namespace ModelBL
         Customer SearchCustomerByPhone(string c_customer);
         Customer SearchCustomerByEmail(string c_customer);
         Customer SearchCustomerByEmail(object customer);
+
+        List<Customer> GetAllCustomer();
     }
 }

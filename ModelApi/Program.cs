@@ -15,6 +15,8 @@ builder.Services.AddScoped<IRepository<Customer>, SQLCustomerRepository>(repo =>
 builder.Services.AddScoped<ICustomerBL, CustomerBL>();
 builder.Services.AddScoped<IRepository<CustomersModelsJoin>, SQLCustomersModelsJoinRepo>(repo => new SQLCustomersModelsJoinRepo(builder.Configuration.GetConnectionString("Daniel Pagan")));
 builder.Services.AddScoped<ICustomersModelsJoinBL, CustomersModelsJoinBL>();
+builder.Services.AddScoped<IRepository<Model>, SQLModelRepository>(repo => new SQLModelRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<IModelBL, ModelBusinessLayer>();
 
 var app = builder.Build();
 

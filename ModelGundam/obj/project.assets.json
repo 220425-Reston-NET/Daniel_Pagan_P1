@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
+      "projectUniqueName": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
       "projectName": "ModelGundam",
-      "projectPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
+      "projectPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\ModelGundam.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Documents\\ModelHaven\\ModelGundam\\obj\\",
+      "outputPath": "E:\\Revature\\Project 1\\ModelHaven\\ModelGundam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
