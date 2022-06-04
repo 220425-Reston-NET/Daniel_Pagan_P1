@@ -34,6 +34,11 @@ namespace ModelBL
             }
         }
 
+        public List<Model> GetAllModel()
+        {
+            return _modelRepo.GetAll();
+        }
+
         public Model SearchModelByName(string m_modelName)
         {
             List<Model> currentListOfModel = _modelRepo.GetAll();

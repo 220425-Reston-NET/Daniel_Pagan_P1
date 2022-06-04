@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using ModelBL;
+using ModelGundam;
 
 namespace ModelApi.Controllers
 {
     [ApiController]
-    [Route("api.[controller")]
+    [Route("api/[controller")]
 
-    public class ModelController
+    public class ModelController : ControllerBase
     {
         private IModelBL _modelBL;
         private IModelAbiJoinBL _maj;
@@ -17,6 +19,98 @@ namespace ModelApi.Controllers
             _maj = modelsAbiJoin;
         }
 
-        // complete this functionality tomorrow!
+        [HttpGet("GetAllModel")]
+        public IActionResult GetAllModel()
+        {
+            try
+            {
+                List<Model> listOfCurrentModel = _modelBL.GetAllModel();
+                return Ok(listOfCurrentModel);
+            }
+            catch (SqlException)
+            {
+                return NotFound("No Model Exist");
+                
+            }
+        }
+
+        [HttpPost("AddModel")]
+        public IActionResult AddModel([FromBody] Model m_model)
+        {
+            try
+            {
+                _modelBL.AddModel(m_model);
+
+                return Created("Model was Added", m_model);
+            }
+            catch (SqlException)
+            {
+                return Conflict();
+                
+            }
+        }
+
+        [HttpGet("SearchModelByName")]
+        public IActionResult SearchModel([FromBody] string modelName)
+        {
+            try
+            {
+                return Ok(_modelBL.SearchModelByName(modelName));
+            }
+            catch (SqlException)
+            {
+                
+                return Conflict();
+            }
+        }
+
+        [HttpPut("ReplenishAmmo")]
+        public IActionResult ReplenishAmmo([FromBody] int a_Ammo, [FromBody] int a_abilityID, [FromBody] int m_modelID)
+        {
+            Model found = _modelBL.SearchModelByID(m_modelID);
+            if (found == null)
+            {
+                return NotFound("Model was not found!");
+            }
+            else
+            {
+                try
+                {
+                    _maj.ReplenishAbilityAmmo(a_Ammo, a_abilityID, m_modelID);
+
+                    return Ok();
+                }
+                catch (SqlException)
+                {
+                    
+                    return Conflict();
+                }
+            }
+        }
+
+        [HttpPut("ReplenishArmor")]
+        public IActionResult ReplenishArmor([FromBody] int a_Armor, [FromBody] int a_abilityID, [FromBody] int m_modelID)
+        {
+            Model found = _modelBL.SearchModelByID(m_modelID);
+
+            if (found == null)
+            {
+                return NotFound("Model was not found!");
+            }
+            else
+            {
+                try
+                {
+                    _maj.ReplenishAbilityArmor(a_Armor, a_abilityID, m_modelID);
+
+                    return Ok();
+                }
+                catch (SqlException)
+                {
+                    
+                    return Conflict();
+                }
+            }
+        }
     }
 }
