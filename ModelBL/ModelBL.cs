@@ -39,6 +39,11 @@ namespace ModelBL
             return _modelRepo.GetAll();
         }
 
+        public Model SearchModelByID(int m_modelID)
+        {
+            return _modelRepo.GetAll().First(model => model.ModelID == m_modelID);
+        }
+
         public Model SearchModelByName(string m_modelName)
         {
             List<Model> currentListOfModel = _modelRepo.GetAll();
