@@ -51,7 +51,7 @@ namespace ModelApi.Controllers
         }
 
         [HttpGet("SearchModelByName")]
-        public IActionResult SearchModel([FromBody] string modelName)
+        public IActionResult SearchModel([FromQuery] string modelName)
         {
             try
             {
@@ -64,53 +64,53 @@ namespace ModelApi.Controllers
             }
         }
 
-        // [HttpPut("ReplenishAmmo")]
-        // public IActionResult ReplenishAmmo([FromBody] int a_Ammo, [FromBody] int a_abilityID, [FromBody] int m_modelID)
-        // {
-        //     Model found = _modelBL.SearchModelByID(m_modelID);
-        //     if (found == null)
-        //     {
-        //         return NotFound("Model was not found!");
-        //     }
-        //     else
-        //     {
-        //         try
-        //         {
-        //             _maj.ReplenishAbilityAmmo(a_Ammo, a_abilityID, m_modelID);
+        [HttpPut("ReplenishAmmo")]
+        public IActionResult ReplenishAmmo([FromQuery] int a_Ammo, [FromQuery] int a_abilityID, [FromQuery] int m_modelID)
+        {
+            Model found = _modelBL.SearchModelByID(m_modelID);
+            if (found == null)
+            {
+                return NotFound("Model was not found!");
+            }
+            else
+            {
+                try
+                {
+                    _maj.ReplenishAbilityAmmo(a_Ammo, a_abilityID, m_modelID);
 
-        //             return Ok();
-        //         }
-        //         catch (SqlException)
-        //         {
+                    return Ok();
+                }
+                catch (SqlException)
+                {
                     
-        //             return Conflict();
-        //         }
-        //     }
-        // }
+                    return Conflict();
+                }
+            }
+        }
 
-        // [HttpPut("ReplenishArmor")]
-        // public IActionResult ReplenishArmor([FromBody] int a_Armor, [FromBody] int a_abilityID, [FromBody] int m_modelID)
-        // {
-        //     Model found = _modelBL.SearchModelByID(m_modelID);
+        [HttpPut("ReplenishArmor")]
+        public IActionResult ReplenishArmor([FromQuery] int a_Armor, [FromQuery] int a_abilityID, [FromQuery] int m_modelID)
+        {
+            Model found = _modelBL.SearchModelByID(m_modelID);
 
-        //     if (found == null)
-        //     {
-        //         return NotFound("Model was not found!");
-        //     }
-        //     else
-        //     {
-        //         try
-        //         {
-        //             _maj.ReplenishAbilityArmor(a_Armor, a_abilityID, m_modelID);
+            if (found == null)
+            {
+                return NotFound("Model was not found!");
+            }
+            else
+            {
+                try
+                {
+                    _maj.ReplenishAbilityArmor(a_Armor, a_abilityID, m_modelID);
 
-        //             return Ok();
-        //         }
-        //         catch (SqlException)
-        //         {
+                    return Ok();
+                }
+                catch (SqlException)
+                {
                     
-        //             return Conflict();
-        //         }
-        //     }
-        // }
+                    return Conflict();
+                }
+            }
+        }
     }
 }

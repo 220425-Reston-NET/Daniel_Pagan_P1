@@ -6,17 +6,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+// This is the connection to the SQLCustomerRepository (builder.Configuration.GetConnectionString("Daniel Pagan")
+// This is the connection to the SQLCustomersModelsJoinRepo (builder.Configuration.GetConnectionString("Daniel Pagan")   
+// This is the connection to the SQLModelRepository (builder.Configuration.GetConnectionString("Daniel Pagan")
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IRepository<Customer>, SQLCustomerRepository>(repo => new SQLCustomerRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<IRepository<Customer>, SQLCustomerRepository>(repo => new SQLCustomerRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<ICustomerBL, CustomerBL>();
-builder.Services.AddScoped<IRepository<CustomersModelsJoin>, SQLCustomersModelsJoinRepo>(repo => new SQLCustomersModelsJoinRepo(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<IRepository<CustomersModelsJoin>, SQLCustomersModelsJoinRepo>(repo => new SQLCustomersModelsJoinRepo(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<ICustomersModelsJoinBL, CustomersModelsJoinBL>();
-builder.Services.AddScoped<IRepository<Model>, SQLModelRepository>(repo => new SQLModelRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<IRepository<Model>, SQLModelRepository>(repo => new SQLModelRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<IModelBL, ModelBusinessLayer>();
+
 
 var app = builder.Build();
 
