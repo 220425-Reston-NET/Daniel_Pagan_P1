@@ -18,7 +18,7 @@ namespace ModelDL
         {
             //need to correct the sql statement here
             string SQLquery = @"update models_abilities   
-                            where modelID = @modelID and @abilityID";
+                            where modelID = @Ammo and @Armor";
             using (SqlConnection con = new SqlConnection(_connectionString))
             {
                 con.Open();

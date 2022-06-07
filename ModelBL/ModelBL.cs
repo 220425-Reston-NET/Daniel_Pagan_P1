@@ -36,12 +36,13 @@ namespace ModelBL
 
         public List<Model> GetAllModel()
         {
-            return _modelRepo.GetAll();
+            List<Model> currentListOfModel = _modelRepo.GetAll();
+            return currentListOfModel;
         }
 
         public Model SearchModelByID(int m_modelID)
         {
-            return _modelRepo.GetAll().First(model => model.ModelID == m_modelID);
+            throw new NotImplementedException();
         }
 
         public Model SearchModelByName(string m_modelName)
@@ -55,7 +56,7 @@ namespace ModelBL
                 }
             }
 
-            return null;            
+            return null;       
         }
     }
 }
