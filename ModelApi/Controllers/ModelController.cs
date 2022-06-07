@@ -13,10 +13,10 @@ namespace ModelApi.Controllers
         private IModelBL _modelBL;
         private IModelAbiJoinBL _maj;
 
-        public ModelController(IModelBL modelBL, IModelAbiJoinBL modelsAbiJoin)
+        public ModelController(IModelBL modelBL, IModelAbiJoinBL modelAbiJoin)
         {
             _modelBL = modelBL;
-            _maj = modelsAbiJoin;
+            _maj = modelAbiJoin;
         }
 
         [HttpGet("GetAllModel")]

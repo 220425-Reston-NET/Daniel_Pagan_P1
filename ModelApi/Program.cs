@@ -22,7 +22,8 @@ builder.Services.AddScoped<IRepository<CustomersModelsJoin>, SQLCustomersModelsJ
 builder.Services.AddScoped<ICustomersModelsJoinBL, CustomersModelsJoinBL>();
 builder.Services.AddScoped<IRepository<Model>, SQLModelRepository>(repo => new SQLModelRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<IModelBL, ModelBusinessLayer>();
-
+builder.Services.AddScoped<IRepository<ModelAbiJoin>, SQLModelAbiJoinRepository>(repo => new SQLModelAbiJoinRepository(Environment.GetEnvironmentVariable("Connection_String")));
+builder.Services.AddScoped<IModelAbiJoinBL, ModelAbiJoinBL>();
 
 var app = builder.Build();
 

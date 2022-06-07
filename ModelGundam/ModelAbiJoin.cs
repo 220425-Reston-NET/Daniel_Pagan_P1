@@ -1,6 +1,6 @@
 namespace ModelGundam
 {
-    public class ModelAbilityJoin
+    public class ModelAbiJoin
     {
         public int modelID { get; set; }
         public int abilityID { get; set; }
