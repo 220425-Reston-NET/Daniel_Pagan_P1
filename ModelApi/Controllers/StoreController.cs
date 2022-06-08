@@ -4,7 +4,7 @@ using ModelBL;
 namespace ModelApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller")]
+    [Route("api/[controller]")]
     public class StoreController : ControllerBase
     {
         private IStoreBL _storeBL;
