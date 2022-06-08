@@ -22,7 +22,7 @@ builder.Services.AddScoped<IRepository<CustomersModelsJoin>, SQLCustomersModelsJ
 builder.Services.AddScoped<ICustomersModelsJoinBL, CustomersModelsJoinBL>();
 builder.Services.AddScoped<IRepository<Model>, SQLModelRepository>(repo => new SQLModelRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<IModelBL, ModelBusinessLayer>();
-builder.Services.AddScoped<IRepository<ModelAbiJoin>, SQLModelAbiJoinRepository>(repo => new SQLModelAbiJoinRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
+builder.Services.AddScoped<IRepository<ModelAbiJoin>, SQLModelAbiJoinRepository>(repo => new SQLModelAbiJoinRepository(Environment.GetEnvironmentVariable("Connection_String")));
 builder.Services.AddScoped<IModelAbiJoinBL, ModelAbiJoinBL>();
 builder.Services.AddScoped<IRepository<Store>, SQLStoreRepository>(repo => new SQLStoreRepository(builder.Configuration.GetConnectionString("Daniel Pagan")));
 builder.Services.AddScoped<IStoreBL, StoreBL>();
