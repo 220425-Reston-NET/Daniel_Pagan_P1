@@ -19,6 +19,5 @@ namespace ModelApi.Controllers
         {
             return Ok(_storeBL.ViewStoreInventory(m_sID));
         }
-        
     }
 }
